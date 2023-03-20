@@ -1,6 +1,8 @@
 ![made-with-python](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat-square)
 
 <div align="center" >
+<img align="center" src="https://lohxt1.github.io/_assets/layoutsI1.png" alt="layouts I 1"/>
+<img align="center" src="https://lohxt1.github.io/_assets/layoutsI2.png" alt="layouts I 2"/>
 <h1>
 Layout exploration I
 </h1>
