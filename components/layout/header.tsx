@@ -1,8 +1,9 @@
 import React from "react";
 import { useTheme } from "next-themes";
 import { cn } from "utils/tailwind";
+import GithubStar from "../shared/giithubStar";
 
-const HeaderIsland: React.FC = () => {
+const Header: React.FC = () => {
   const { theme, setTheme, systemTheme } = useTheme();
   const currentTheme = theme === "system" ? systemTheme : theme;
 
@@ -25,7 +26,7 @@ const HeaderIsland: React.FC = () => {
         className={cn(
           "flex h-14 w-fit items-center justify-between align-middle md:min-w-[1/3] lg:min-w-[1/4]",
           // "md:w-1/2",
-          "rounded-full border border-slate-900",
+          // "rounded-full border border-slate-900",
           "px-5",
           "dark:border-white",
           "z-10",
@@ -39,10 +40,18 @@ const HeaderIsland: React.FC = () => {
           )}
         >
           <div className={cn("flex items-center")}>
-            <label className={cn("text-sm")}>Hello,&nbsp;</label>
+            {/* <label className={cn("text-sm")}>Hello,&nbsp;</label>
             <label className={cn("text-sm", "underline decoration-dashed")}>
               stranger
-            </label>
+            </label> */}
+            <GithubStar star={true} />
+            <a
+              href="https://lohxt.space"
+              target="_blank"
+              className={cn("text-sm", "underline decoration-dashed")}
+            >
+              lohxt.space
+            </a>
           </div>
           <button
             aria-label="Toggle Dark Mode"
@@ -99,4 +108,4 @@ const HeaderIsland: React.FC = () => {
   );
 };
 
-export default HeaderIsland;
+export default Header;

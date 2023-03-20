@@ -11,7 +11,8 @@
       "@/pages/*": ["pages/*"],
       "@/lib/*": ["lib/*"],
       "@/utils/*": ["utils/*"],
-      "@/styles/*": ["styles/*"]
+      "@/styles/*": ["styles/*"],
+      "@/hooks/*": ["hooks/*"]
     },
     "downlevelIteration": true,
     "forceConsistentCasingInFileNames": true,

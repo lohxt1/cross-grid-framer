@@ -2,7 +2,7 @@
 
 <div align="center" >
 <h1>
-NextJS Starter ThreeJS Bare
+Layout exploration I
 </h1>
   <a href="https://github.com/trpc/trpc/blob/main/LICENSE">
     <img alt="MIT License" src="https://img.shields.io/github/license/trpc/trpc" />
@@ -11,7 +11,7 @@ NextJS Starter ThreeJS Bare
     <img alt="Twitter" src="https://img.shields.io/twitter/url.svg?label=%40lohxt&style=social&url=https%3A%2F%2Ftwitter.com%2Flohxt" />
   </a>
 <p align="center" style="font-weight:400;font-size:20px;">
-  A barebones NextJS, Tailwind starter template with helper utils.
+  Exploring grid layout for displaying elements. Uses NextJS, tailwindCSS, framer-motion.
 </p>
 </div>
 
@@ -20,7 +20,7 @@ NextJS Starter ThreeJS Bare
 - [Next.js](https://nextjs.org/) – `framework`
 - [Typescript](https://www.typescriptlang.org/) – `language`
 - [Tailwind](https://tailwindcss.com/) – `CSS`
-- [Three.js](https://threejs.org) – `WebGL`
+- [framer-motion](https://framer.com) – `Animation`
 - [Vercel](https://vercel.com/) – `hosting`
 
 ## Running the code locally
@@ -29,8 +29,8 @@ To run the code locally, open _Terminal_ in your `projects` folder and take the 
 
 ```bash
 # STEP 1: Get sources from GitHub
-$ git clone https://github.com/lohxt1/next-starter-three-bare.git
-$ cd next-starter-three-bare
+$ git clone https://github.com/lohxt1/layoutsI.git
+$ cd layoutsI
 
 # STEP 2: Install the requirements
 $ npm install

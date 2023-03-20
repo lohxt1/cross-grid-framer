@@ -1,6 +1,7 @@
 import React, { ReactNode } from "react";
 import { cn } from "@/utils/tailwind";
-import HeaderIsland from "./headerIsland";
+import Footer from "./footer";
+import Header from "./header";
 
 type Props = {
   children: ReactNode;
@@ -10,12 +11,13 @@ const Layout: React.FC<Props> = (props) => (
   <div>
     <div
       className={cn(
-        "h-screen",
+        // "h-screen",
         "bg-white text-black dark:bg-black dark:text-white",
       )}
     >
-      <HeaderIsland />
+      <Header />
       {props.children}
+      <Footer />
     </div>
   </div>
 );
