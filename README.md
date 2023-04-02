@@ -31,8 +31,8 @@ To run the code locally, open _Terminal_ in your `projects` folder and take the 
 
 ```bash
 # STEP 1: Get sources from GitHub
-$ git clone https://github.com/lohxt1/layoutsI.git
-$ cd layoutsI
+$ git clone https://github.com/lohxt1/cross-grid-framer.git
+$ cd cross-grid-framer
 
 # STEP 2: Install the requirements
 $ npm install
