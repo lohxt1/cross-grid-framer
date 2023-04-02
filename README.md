@@ -4,7 +4,7 @@
 <img align="center" src="https://lohxt1.github.io/_assets/layoutsI1.png" alt="layouts I 1"/>
 <img align="center" src="https://lohxt1.github.io/_assets/layoutsI2.png" alt="layouts I 2"/>
 <h1>
-Layout exploration I
+cross grid exploration I
 </h1>
   <a href="https://github.com/trpc/trpc/blob/main/LICENSE">
     <img alt="MIT License" src="https://img.shields.io/github/license/trpc/trpc" />
